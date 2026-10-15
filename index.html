@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Automated Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Automated Website</h1>
+        <p>Deployed automatically using Docker and AWS</p>
+    </header>
+
+    <main>
+        <h2>Welcome!</h2>
+        <p id="message">
+            This website is running inside a Docker container.
+        </p>
+
+        <button onclick="showMessage()">Click Here</button>
+
+        <p id="result"></p>
+    </main>
+
+    <footer>
+        <p>Powered by Docker, AWS and GitHub CI/CD</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
